@@ -22,7 +22,7 @@ python3 slope_estimation.py
 rosparam set /reading_trigger true
 ```
 
-## Approach 2 :  Base Slope Estimation 
+## Approach 2 : RANSAC based plane fitting and estimation
 
 ![fig1](./images/ransac.png)
 
