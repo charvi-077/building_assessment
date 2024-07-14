@@ -1,4 +1,4 @@
-# Building Area Estimation 
+# Building Tilt Estimation 
 
 ## Approach 1 : Sensor Based Slope Estimation 
 ![fig1](./images/slope.png)
