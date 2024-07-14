@@ -1,0 +1,818 @@
+/home2/kushagra0301/CrackIL/homework3.py:9: RuntimeWarning: divide by zero encountered in log
+  loss = -np.sum(y * np.log(y_pred)) / n + alpha * (np.sum(w_1**2))
+/home2/kushagra0301/CrackIL/homework3.py:9: RuntimeWarning: invalid value encountered in multiply
+  loss = -np.sum(y * np.log(y_pred)) / n + alpha * (np.sum(w_1**2))
+/home2/kushagra0301/CrackIL/homework3.py:52: RuntimeWarning: divide by zero encountered in log
+  loss = -np.sum(y * np.log(y_pred)) / n
+/home2/kushagra0301/CrackIL/homework3.py:52: RuntimeWarning: invalid value encountered in multiply
+  loss = -np.sum(y * np.log(y_pred)) / n
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 2e-05, 0.0001)
+Validation Loss: nan
+Accuracy: 0.8078333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 2e-05, 0.0005)
+Validation Loss: nan
+Accuracy: 0.7791666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 2e-05, 1e-05)
+Validation Loss: nan
+Accuracy: 0.7831666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 2e-05, 5e-05)
+Validation Loss: nan
+Accuracy: 0.7978333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-05, 0.0001)
+Validation Loss: 2.7909386923136172
+Accuracy: 0.79125
+Found improved parameters
+New min validation cost: 2.7909386923136172
+New max accuracy: 0.79125
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-05, 0.0001)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-05, 0.0005)
+Validation Loss: 3.0229021983703435
+Accuracy: 0.7934166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-05, 1e-05)
+Validation Loss: 2.9576188388463107
+Accuracy: 0.795
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-05, 5e-05)
+Validation Loss: 2.6048417667421897
+Accuracy: 0.805
+Found improved parameters
+New min validation cost: 2.6048417667421897
+New max accuracy: 0.805
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-05, 5e-05)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 5e-06, 0.0001)
+Validation Loss: 1.6447970810093029
+Accuracy: 0.8035833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 5e-06, 0.0005)
+Validation Loss: 1.6498119451027842
+Accuracy: 0.8040833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 5e-06, 1e-05)
+Validation Loss: 1.6264413710384793
+Accuracy: 0.8021666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 5e-06, 5e-05)
+Validation Loss: 1.6143368552843833
+Accuracy: 0.806
+Found improved parameters
+New min validation cost: 1.6143368552843833
+New max accuracy: 0.806
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 5e-06, 5e-05)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-06, 0.0001)
+Validation Loss: 2.3368784286946878
+Accuracy: 0.7949166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-06, 0.0005)
+Validation Loss: 2.3354817593140824
+Accuracy: 0.7948333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-06, 1e-05)
+Validation Loss: 2.3371928077383357
+Accuracy: 0.7949166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 16, 1e-06, 5e-05)
+Validation Loss: 2.3370530778930316
+Accuracy: 0.7949166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 2e-05, 0.0001)
+Validation Loss: 3.5053775203115403
+Accuracy: 0.7883333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 2e-05, 0.0005)
+Validation Loss: 2.986023048203868
+Accuracy: 0.8080833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 2e-05, 1e-05)
+Validation Loss: 2.9375955447973046
+Accuracy: 0.8045
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 2e-05, 5e-05)
+Validation Loss: 3.2491904347558465
+Accuracy: 0.7995833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-05, 0.0001)
+Validation Loss: 1.7191267038959244
+Accuracy: 0.8096666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-05, 0.0005)
+Validation Loss: 1.8075121199200954
+Accuracy: 0.8081666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-05, 1e-05)
+Validation Loss: 1.86699823352393
+Accuracy: 0.8006666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-05, 5e-05)
+Validation Loss: 1.8444550476040382
+Accuracy: 0.8038333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 5e-06, 0.0001)
+Validation Loss: 1.5597632344189976
+Accuracy: 0.8058333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 5e-06, 0.0005)
+Validation Loss: 1.558159376268827
+Accuracy: 0.8061666666666667
+Found improved parameters
+New min validation cost: 1.558159376268827
+New max accuracy: 0.8061666666666667
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 5e-06, 0.0005)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 5e-06, 1e-05)
+Validation Loss: 1.5601244844698898
+Accuracy: 0.8058333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 5e-06, 5e-05)
+Validation Loss: 1.5599639143114379
+Accuracy: 0.8058333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-06, 0.0001)
+Validation Loss: 3.4123713484749527
+Accuracy: 0.78375
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-06, 0.0005)
+Validation Loss: 3.4113666348838008
+Accuracy: 0.78375
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-06, 1e-05)
+Validation Loss: 3.4125974489615505
+Accuracy: 0.78375
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 32, 1e-06, 5e-05)
+Validation Loss: 3.4124969580453985
+Accuracy: 0.78375
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 2e-05, 0.0001)
+Validation Loss: 2.2262269804359627
+Accuracy: 0.8133333333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 2e-05, 0.0005)
+Validation Loss: 2.298558297822349
+Accuracy: 0.807
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 2e-05, 1e-05)
+Validation Loss: 2.4166434878725216
+Accuracy: 0.8036666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 2e-05, 5e-05)
+Validation Loss: 2.187289431519487
+Accuracy: 0.8145833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-05, 0.0001)
+Validation Loss: 1.719930839270712
+Accuracy: 0.8104166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-05, 0.0005)
+Validation Loss: 1.7220390252463647
+Accuracy: 0.8094166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-05, 1e-05)
+Validation Loss: 1.7278962622695924
+Accuracy: 0.8094166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-05, 5e-05)
+Validation Loss: 1.8231402489116484
+Accuracy: 0.8
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 5e-06, 0.0001)
+Validation Loss: 2.088349657616648
+Accuracy: 0.7980833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 5e-06, 0.0005)
+Validation Loss: 2.0869041931098633
+Accuracy: 0.798
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 5e-06, 1e-05)
+Validation Loss: 2.088675047331866
+Accuracy: 0.7980833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 5e-06, 5e-05)
+Validation Loss: 2.0885304224135206
+Accuracy: 0.7980833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-06, 0.0001)
+Validation Loss: 4.667794902351994
+Accuracy: 0.7768333333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-06, 0.0005)
+Validation Loss: 4.667126200823931
+Accuracy: 0.7768333333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-06, 1e-05)
+Validation Loss: 4.667945373247081
+Accuracy: 0.7768333333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 64, 1e-06, 5e-05)
+Validation Loss: 4.6678784967017695
+Accuracy: 0.7768333333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 2e-05, 0.0001)
+Validation Loss: 2.669884550509187
+Accuracy: 0.78325
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 2e-05, 0.0005)
+Validation Loss: 2.029024864671085
+Accuracy: 0.8085833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 2e-05, 1e-05)
+Validation Loss: 2.292355871225103
+Accuracy: 0.7945833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 2e-05, 5e-05)
+Validation Loss: 2.418491844380801
+Accuracy: 0.7879166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-05, 0.0001)
+Validation Loss: 2.1798327205134127
+Accuracy: 0.7969166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-05, 0.0005)
+Validation Loss: 2.1786729942385175
+Accuracy: 0.7969166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-05, 1e-05)
+Validation Loss: 2.1800938457615966
+Accuracy: 0.797
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-05, 5e-05)
+Validation Loss: 2.1799777810932937
+Accuracy: 0.7969166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 5e-06, 0.0001)
+Validation Loss: 3.0428623802406563
+Accuracy: 0.78875
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 5e-06, 0.0005)
+Validation Loss: 3.041736661836491
+Accuracy: 0.78875
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 5e-06, 1e-05)
+Validation Loss: 3.0431157249394536
+Accuracy: 0.78875
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 5e-06, 5e-05)
+Validation Loss: 3.0430031246621394
+Accuracy: 0.78875
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-06, 0.0001)
+Validation Loss: 6.113955709879769
+Accuracy: 0.766
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-06, 0.0005)
+Validation Loss: 6.1135220261388135
+Accuracy: 0.766
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-06, 1e-05)
+Validation Loss: 6.114053292905927
+Accuracy: 0.766
+Epochs:, Batch Size:, Learning Rate:, Alpha: (200, 128, 1e-06, 5e-05)
+Validation Loss: 6.114009922482313
+Accuracy: 0.766
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 2e-05, 0.0001)
+Validation Loss: nan
+Accuracy: 0.76875
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 2e-05, 0.0005)
+Validation Loss: nan
+Accuracy: 0.7751666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 2e-05, 1e-05)
+Validation Loss: nan
+Accuracy: 0.7789166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 2e-05, 5e-05)
+Validation Loss: nan
+Accuracy: 0.79725
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-05, 0.0001)
+Validation Loss: 3.3626770456515187
+Accuracy: 0.7821666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-05, 0.0005)
+Validation Loss: 3.3257543489747574
+Accuracy: 0.7804166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-05, 1e-05)
+Validation Loss: 3.2006666149774308
+Accuracy: 0.78275
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-05, 5e-05)
+Validation Loss: 3.198981982240758
+Accuracy: 0.78625
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 5e-06, 0.0001)
+Validation Loss: 1.5594248742452104
+Accuracy: 0.7971666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 5e-06, 0.0005)
+Validation Loss: 1.5932056046314587
+Accuracy: 0.7955
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 5e-06, 1e-05)
+Validation Loss: 1.5626432213368813
+Accuracy: 0.7965833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 5e-06, 5e-05)
+Validation Loss: 1.5721608985950204
+Accuracy: 0.795
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-06, 0.0001)
+Validation Loss: 1.5018687744091161
+Accuracy: 0.80725
+Found improved parameters
+New min validation cost: 1.5018687744091161
+New max accuracy: 0.80725
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-06, 0.0001)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-06, 0.0005)
+Validation Loss: 1.5002305550543846
+Accuracy: 0.80725
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-06, 1e-05)
+Validation Loss: 1.5022377023494407
+Accuracy: 0.80725
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 16, 1e-06, 5e-05)
+Validation Loss: 1.5020737194669285
+Accuracy: 0.80725
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 2e-05, 0.0001)
+Validation Loss: 3.833993169366491
+Accuracy: 0.7781666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 2e-05, 0.0005)
+Validation Loss: 3.1966866984106757
+Accuracy: 0.7973333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 2e-05, 1e-05)
+Validation Loss: 3.33556084007943
+Accuracy: 0.7919166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 2e-05, 5e-05)
+Validation Loss: 3.46017842368468
+Accuracy: 0.7884166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-05, 0.0001)
+Validation Loss: 1.5850168711550539
+Accuracy: 0.80925
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-05, 0.0005)
+Validation Loss: 1.5985105689735493
+Accuracy: 0.8111666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-05, 1e-05)
+Validation Loss: 1.814466691991112
+Accuracy: 0.7968333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-05, 5e-05)
+Validation Loss: 1.6203381856516026
+Accuracy: 0.8115
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 5e-06, 0.0001)
+Validation Loss: 1.2040998722938472
+Accuracy: 0.8135
+Found improved parameters
+New min validation cost: 1.2040998722938472
+New max accuracy: 0.8135
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 5e-06, 0.0001)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 5e-06, 0.0005)
+Validation Loss: 1.2023110214131092
+Accuracy: 0.8135
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 5e-06, 1e-05)
+Validation Loss: 1.204503335709383
+Accuracy: 0.8135
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 5e-06, 5e-05)
+Validation Loss: 1.2043239747622854
+Accuracy: 0.8135
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-06, 0.0001)
+Validation Loss: 2.314085857032302
+Accuracy: 0.7928333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-06, 0.0005)
+Validation Loss: 2.3126879476313675
+Accuracy: 0.79275
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-06, 1e-05)
+Validation Loss: 2.3144005090709787
+Accuracy: 0.7928333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 32, 1e-06, 5e-05)
+Validation Loss: 2.3142606581672736
+Accuracy: 0.7928333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 2e-05, 0.0001)
+Validation Loss: 2.2984305158309755
+Accuracy: 0.806
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 2e-05, 0.0005)
+Validation Loss: 2.378111854549625
+Accuracy: 0.8089166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 2e-05, 1e-05)
+Validation Loss: 2.3661363331555876
+Accuracy: 0.8064166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 2e-05, 5e-05)
+Validation Loss: 2.17846340349706
+Accuracy: 0.8121666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-05, 0.0001)
+Validation Loss: 1.403619146576796
+Accuracy: 0.8119166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-05, 0.0005)
+Validation Loss: 1.4016938778926518
+Accuracy: 0.8129166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-05, 1e-05)
+Validation Loss: 1.402005970496475
+Accuracy: 0.8115833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-05, 5e-05)
+Validation Loss: 1.4237008783886547
+Accuracy: 0.8115833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 5e-06, 0.0001)
+Validation Loss: 1.3890204507565471
+Accuracy: 0.8130833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 5e-06, 0.0005)
+Validation Loss: 1.3874378955242774
+Accuracy: 0.8131666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 5e-06, 1e-05)
+Validation Loss: 1.3893769351487317
+Accuracy: 0.8130833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 5e-06, 5e-05)
+Validation Loss: 1.389218479048214
+Accuracy: 0.8130833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-06, 0.0001)
+Validation Loss: 3.4014846268624437
+Accuracy: 0.7844166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-06, 0.0005)
+Validation Loss: 3.4004808994340534
+Accuracy: 0.7845833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-06, 1e-05)
+Validation Loss: 3.4017105050738556
+Accuracy: 0.7844166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 64, 1e-06, 5e-05)
+Validation Loss: 3.4016101129643115
+Accuracy: 0.7844166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 2e-05, 0.0001)
+Validation Loss: 1.803061858635892
+Accuracy: 0.81525
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 2e-05, 0.0005)
+Validation Loss: 1.9921775279100338
+Accuracy: 0.8064166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 2e-05, 1e-05)
+Validation Loss: 1.9947333182659321
+Accuracy: 0.813
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 2e-05, 5e-05)
+Validation Loss: 1.8178094156524487
+Accuracy: 0.8139166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-05, 0.0001)
+Validation Loss: 1.6081635413029682
+Accuracy: 0.7943333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-05, 0.0005)
+Validation Loss: 1.585006055457231
+Accuracy: 0.8083333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-05, 1e-05)
+Validation Loss: 1.612849926048897
+Accuracy: 0.8069166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-05, 5e-05)
+Validation Loss: 1.576161122293243
+Accuracy: 0.8098333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 5e-06, 0.0001)
+Validation Loss: 2.017851475991243
+Accuracy: 0.7983333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 5e-06, 0.0005)
+Validation Loss: 2.0163584546627824
+Accuracy: 0.7983333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 5e-06, 1e-05)
+Validation Loss: 2.0181875877830415
+Accuracy: 0.7985
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 5e-06, 5e-05)
+Validation Loss: 2.0180381965095284
+Accuracy: 0.7983333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-06, 0.0001)
+Validation Loss: 4.654673539411532
+Accuracy: 0.7763333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-06, 0.0005)
+Validation Loss: 4.654005842854643
+Accuracy: 0.7763333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-06, 1e-05)
+Validation Loss: 4.654823784135522
+Accuracy: 0.7763333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (400, 128, 1e-06, 5e-05)
+Validation Loss: 4.6547570081131004
+Accuracy: 0.7763333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 2e-05, 0.0001)
+Validation Loss: nan
+Accuracy: 0.7931666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 2e-05, 0.0005)
+Validation Loss: nan
+Accuracy: 0.7733333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 2e-05, 1e-05)
+Validation Loss: nan
+Accuracy: 0.7875833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 2e-05, 5e-05)
+Validation Loss: nan
+Accuracy: 0.77275
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-05, 0.0001)
+Validation Loss: 3.302831534049556
+Accuracy: 0.7846666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-05, 0.0005)
+Validation Loss: 3.1810194257278757
+Accuracy: 0.7880833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-05, 1e-05)
+Validation Loss: 3.0275322059402607
+Accuracy: 0.7775833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-05, 5e-05)
+Validation Loss: 3.3243319105233224
+Accuracy: 0.7774166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 5e-06, 0.0001)
+Validation Loss: 1.5628790701371236
+Accuracy: 0.7960833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 5e-06, 0.0005)
+Validation Loss: 1.5788733130877979
+Accuracy: 0.7936666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 5e-06, 1e-05)
+Validation Loss: 1.557899355536993
+Accuracy: 0.79825
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 5e-06, 5e-05)
+Validation Loss: 1.5651627047938055
+Accuracy: 0.7971666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-06, 0.0001)
+Validation Loss: 1.1814726891279879
+Accuracy: 0.8191666666666667
+Found improved parameters
+New min validation cost: 1.1814726891279879
+New max accuracy: 0.8191666666666667
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-06, 0.0001)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-06, 0.0005)
+Validation Loss: 1.1798110548632854
+Accuracy: 0.8191666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-06, 1e-05)
+Validation Loss: 1.181847069455215
+Accuracy: 0.8191666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 16, 1e-06, 5e-05)
+Validation Loss: 1.1816806549330996
+Accuracy: 0.8191666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 2e-05, 0.0001)
+Validation Loss: 3.5694166633612565
+Accuracy: 0.7861666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 2e-05, 0.0005)
+Validation Loss: 3.6250208376739885
+Accuracy: 0.7904166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 2e-05, 1e-05)
+Validation Loss: 3.8885549922763913
+Accuracy: 0.7790833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 2e-05, 5e-05)
+Validation Loss: 3.2925040129588856
+Accuracy: 0.7990833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-05, 0.0001)
+Validation Loss: 1.8193873689691757
+Accuracy: 0.7976666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-05, 0.0005)
+Validation Loss: 1.6410920471426371
+Accuracy: 0.806
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-05, 1e-05)
+Validation Loss: 2.0137578543869963
+Accuracy: 0.7885833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-05, 5e-05)
+Validation Loss: 1.7315639790631578
+Accuracy: 0.80275
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 5e-06, 0.0001)
+Validation Loss: 1.126999959867005
+Accuracy: 0.8099166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 5e-06, 0.0005)
+Validation Loss: 1.125036238239215
+Accuracy: 0.8100833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 5e-06, 1e-05)
+Validation Loss: 1.1274432877769163
+Accuracy: 0.8099166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 5e-06, 5e-05)
+Validation Loss: 1.1272461855393585
+Accuracy: 0.8099166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-06, 0.0001)
+Validation Loss: 1.776577481469849
+Accuracy: 0.7995833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-06, 0.0005)
+Validation Loss: 1.7750128808321781
+Accuracy: 0.7996666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-06, 1e-05)
+Validation Loss: 1.7769297457317412
+Accuracy: 0.7996666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 32, 1e-06, 5e-05)
+Validation Loss: 1.7767731734430023
+Accuracy: 0.7995833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 2e-05, 0.0001)
+Validation Loss: 2.3605523627553997
+Accuracy: 0.8056666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 2e-05, 0.0005)
+Validation Loss: 2.2487206195642586
+Accuracy: 0.81025
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 2e-05, 1e-05)
+Validation Loss: 2.436615234501781
+Accuracy: 0.8014166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 2e-05, 5e-05)
+Validation Loss: 2.2219280422405343
+Accuracy: 0.807
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-05, 0.0001)
+Validation Loss: 1.3968878181348836
+Accuracy: 0.8119166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-05, 0.0005)
+Validation Loss: 1.4154828714766121
+Accuracy: 0.81075
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-05, 1e-05)
+Validation Loss: 1.4012743799177294
+Accuracy: 0.8116666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-05, 5e-05)
+Validation Loss: 1.4208052695770723
+Accuracy: 0.8110833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 5e-06, 0.0001)
+Validation Loss: 1.151880760918415
+Accuracy: 0.8195833333333333
+Found improved parameters
+New min validation cost: 1.151880760918415
+New max accuracy: 0.8195833333333333
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 5e-06, 0.0001)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 5e-06, 0.0005)
+Validation Loss: 1.1502421196572055
+Accuracy: 0.8196666666666667
+Found improved parameters
+New min validation cost: 1.1502421196572055
+New max accuracy: 0.8196666666666667
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 5e-06, 0.0005)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 5e-06, 1e-05)
+Validation Loss: 1.1522500843168735
+Accuracy: 0.8195833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 5e-06, 5e-05)
+Validation Loss: 1.1520859120358622
+Accuracy: 0.8195833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-06, 0.0001)
+Validation Loss: 2.7358195328009547
+Accuracy: 0.7886666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-06, 0.0005)
+Validation Loss: 2.734589067214016
+Accuracy: 0.7885833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-06, 1e-05)
+Validation Loss: 2.7360964631744435
+Accuracy: 0.7886666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 64, 1e-06, 5e-05)
+Validation Loss: 2.735973379578625
+Accuracy: 0.7886666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 2e-05, 0.0001)
+Validation Loss: 1.743808405318405
+Accuracy: 0.8186666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 2e-05, 0.0005)
+Validation Loss: 1.6364109944245402
+Accuracy: 0.8218333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 2e-05, 1e-05)
+Validation Loss: 1.8935339870094088
+Accuracy: 0.8175
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 2e-05, 5e-05)
+Validation Loss: 1.5882842046688201
+Accuracy: 0.8164166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-05, 0.0001)
+Validation Loss: 1.2775905976740969
+Accuracy: 0.8156666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-05, 0.0005)
+Validation Loss: 1.3741886705593442
+Accuracy: 0.81525
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-05, 1e-05)
+Validation Loss: 1.378699839205144
+Accuracy: 0.8145
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-05, 5e-05)
+Validation Loss: 1.3214575192922418
+Accuracy: 0.819
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 5e-06, 0.0001)
+Validation Loss: 1.567455423035645
+Accuracy: 0.8063333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 5e-06, 0.0005)
+Validation Loss: 1.5659141232973592
+Accuracy: 0.8065833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 5e-06, 1e-05)
+Validation Loss: 1.5678025310934165
+Accuracy: 0.8063333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 5e-06, 5e-05)
+Validation Loss: 1.5676482465238801
+Accuracy: 0.8063333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-06, 0.0001)
+Validation Loss: 3.8960415917973927
+Accuracy: 0.782
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-06, 0.0005)
+Validation Loss: 3.8951879474526576
+Accuracy: 0.782
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-06, 1e-05)
+Validation Loss: 3.896233687344661
+Accuracy: 0.782
+Epochs:, Batch Size:, Learning Rate:, Alpha: (600, 128, 1e-06, 5e-05)
+Validation Loss: 3.8961483103861743
+Accuracy: 0.782
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 2e-05, 0.0001)
+Validation Loss: nan
+Accuracy: 0.8063333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 2e-05, 0.0005)
+Validation Loss: nan
+Accuracy: 0.7800833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 2e-05, 1e-05)
+Validation Loss: nan
+Accuracy: 0.7886666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 2e-05, 5e-05)
+Validation Loss: nan
+Accuracy: 0.783
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-05, 0.0001)
+Validation Loss: 3.0565820814584725
+Accuracy: 0.7810833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-05, 0.0005)
+Validation Loss: 2.952087012873088
+Accuracy: 0.78525
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-05, 1e-05)
+Validation Loss: 3.4034752609658376
+Accuracy: 0.7816666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-05, 5e-05)
+Validation Loss: 3.1480844046470016
+Accuracy: 0.78
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 5e-06, 0.0001)
+Validation Loss: 1.650036631189275
+Accuracy: 0.7919166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 5e-06, 0.0005)
+Validation Loss: 1.5833857139481957
+Accuracy: 0.7928333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 5e-06, 1e-05)
+Validation Loss: 1.566175608508294
+Accuracy: 0.7933333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 5e-06, 5e-05)
+Validation Loss: 1.5921571746593997
+Accuracy: 0.79375
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-06, 0.0001)
+Validation Loss: 1.0339926011353964
+Accuracy: 0.8228333333333333
+Found improved parameters
+New min validation cost: 1.0339926011353964
+New max accuracy: 0.8228333333333333
+Optimal Parameters: Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-06, 0.0001)
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-06, 0.0005)
+Validation Loss: 1.0323016805398564
+Accuracy: 0.8228333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-06, 1e-05)
+Validation Loss: 1.0343737107751791
+Accuracy: 0.8229166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 16, 1e-06, 5e-05)
+Validation Loss: 1.0342042990860143
+Accuracy: 0.8229166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 2e-05, 0.0001)
+Validation Loss: 3.45694416089091
+Accuracy: 0.7906666666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 2e-05, 0.0005)
+Validation Loss: 2.6211066562128136
+Accuracy: 0.814
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 2e-05, 1e-05)
+Validation Loss: 3.119309212782315
+Accuracy: 0.797
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 2e-05, 5e-05)
+Validation Loss: 3.3517292269762073
+Accuracy: 0.7913333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-05, 0.0001)
+Validation Loss: 1.5174917529056906
+Accuracy: 0.8085
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-05, 0.0005)
+Validation Loss: 1.888801151671858
+Accuracy: 0.7914166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-05, 1e-05)
+Validation Loss: 1.6234629132630953
+Accuracy: 0.8061666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-05, 5e-05)
+Validation Loss: 1.8023927973560934
+Accuracy: 0.7955
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 5e-06, 0.0001)
+Validation Loss: 1.0877972693030016
+Accuracy: 0.8078333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 5e-06, 0.0005)
+Validation Loss: 1.085581672074795
+Accuracy: 0.808
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 5e-06, 1e-05)
+Validation Loss: 1.0882980851955268
+Accuracy: 0.8078333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 5e-06, 5e-05)
+Validation Loss: 1.0880753958166394
+Accuracy: 0.8078333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-06, 0.0001)
+Validation Loss: 1.468510636861843
+Accuracy: 0.807
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-06, 0.0005)
+Validation Loss: 1.4668815164054103
+Accuracy: 0.8069166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-06, 1e-05)
+Validation Loss: 1.4688775170504709
+Accuracy: 0.807
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 32, 1e-06, 5e-05)
+Validation Loss: 1.4687144443027484
+Accuracy: 0.807
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 2e-05, 0.0001)
+Validation Loss: 2.004225556879847
+Accuracy: 0.81625
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 2e-05, 0.0005)
+Validation Loss: 2.284069475893114
+Accuracy: 0.8094166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 2e-05, 1e-05)
+Validation Loss: 2.3314697892643084
+Accuracy: 0.809
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 2e-05, 5e-05)
+Validation Loss: 2.3483486847492205
+Accuracy: 0.8011666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-05, 0.0001)
+Validation Loss: 1.3960555001780413
+Accuracy: 0.8103333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-05, 0.0005)
+Validation Loss: 1.3934342909351554
+Accuracy: 0.8081666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-05, 1e-05)
+Validation Loss: 1.3853771897320266
+Accuracy: 0.8080833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-05, 5e-05)
+Validation Loss: 1.371781442855446
+Accuracy: 0.8089166666666666
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 5e-06, 0.0001)
+Validation Loss: 1.0499441794065265
+Accuracy: 0.82025
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 5e-06, 0.0005)
+Validation Loss: 1.0482771819390853
+Accuracy: 0.8201666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 5e-06, 1e-05)
+Validation Loss: 1.050320135055808
+Accuracy: 0.82025
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 5e-06, 5e-05)
+Validation Loss: 1.0501530036329487
+Accuracy: 0.82025
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-06, 0.0001)
+Validation Loss: 2.3019809299017915
+Accuracy: 0.7911666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-06, 0.0005)
+Validation Loss: 2.300591903397757
+Accuracy: 0.7911666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-06, 1e-05)
+Validation Loss: 2.302293581310882
+Accuracy: 0.7911666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 64, 1e-06, 5e-05)
+Validation Loss: 2.3021546196654334
+Accuracy: 0.7911666666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 2e-05, 0.0001)
+Validation Loss: 1.97795587969799
+Accuracy: 0.8140833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 2e-05, 0.0005)
+Validation Loss: 1.7099754497751336
+Accuracy: 0.8178333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 2e-05, 1e-05)
+Validation Loss: 1.914284160950039
+Accuracy: 0.8014166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 2e-05, 5e-05)
+Validation Loss: 1.6339617785043299
+Accuracy: 0.82275
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-05, 0.0001)
+Validation Loss: 1.2369820240715765
+Accuracy: 0.81575
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-05, 0.0005)
+Validation Loss: 1.2736796441467644
+Accuracy: 0.8145833333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-05, 1e-05)
+Validation Loss: 1.3020841854692586
+Accuracy: 0.8125
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-05, 5e-05)
+Validation Loss: 1.1959365006447042
+Accuracy: 0.8160833333333334
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 5e-06, 0.0001)
+Validation Loss: 1.3354014340479647
+Accuracy: 0.81175
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 5e-06, 0.0005)
+Validation Loss: 1.333860800218135
+Accuracy: 0.8118333333333333
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 5e-06, 1e-05)
+Validation Loss: 1.3357484905805868
+Accuracy: 0.81175
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 5e-06, 5e-05)
+Validation Loss: 1.3355942244469703
+Accuracy: 0.81175
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-06, 0.0001)
+Validation Loss: 3.3903941365895607
+Accuracy: 0.7849166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-06, 0.0005)
+Validation Loss: 3.389392879830835
+Accuracy: 0.7849166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-06, 1e-05)
+Validation Loss: 3.3906194590704684
+Accuracy: 0.7849166666666667
+Epochs:, Batch Size:, Learning Rate:, Alpha: (800, 128, 1e-06, 5e-05)
+Validation Loss: 3.3905193139445293
+Accuracy: 0.7849166666666667
+Test Loss: 1.0560643201521456
+Test Accuracy: 0.8123
