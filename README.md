@@ -11,8 +11,8 @@ The Modules covered are as here :
 | Roof Occupancy Estimation  | [Link](./roof_layout_occupancy/) |
 | Roof Area Estimation  | [Link](./roof_area_estimation/)  |
 | Distance between Buildings  | [Link](./distance_between_building/)  |
-| Crack Detection  | [Link](./crack_detection/) |
-| Building Tilt Estimation  | [Link](./building_tilt_estimation/)  |
+| Crack Detection  | [Link](./crack_detection/CrackIL/) |
+| Building Tilt Estimation  | [Link](https://github.com/charvi-077/civil-structure-inspection/blob/main/building_tilt_estimation/%20README.md)  |
 
 Follow the project link for further details on the modules : 
 https://civil-inspection-project-docs.readthedocs.io/en/latest/
